@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3FC75F641E63CF2D0078FE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F631E63CF2D0078FE3B /* AppDelegate.swift */; };
-		3FC75F661E63CF2D0078FE3B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F651E63CF2D0078FE3B /* FirstViewController.swift */; };
-		3FC75F681E63CF2D0078FE3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F671E63CF2D0078FE3B /* SecondViewController.swift */; };
 		3FC75F6B1E63CF2D0078FE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC75F691E63CF2D0078FE3B /* Main.storyboard */; };
 		3FC75F6D1E63CF2D0078FE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC75F6C1E63CF2D0078FE3B /* Assets.xcassets */; };
 		3FC75F701E63CF2D0078FE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC75F6E1E63CF2D0078FE3B /* LaunchScreen.storyboard */; };
 		3FC75F7B1E63CF2D0078FE3B /* TabsAreNiceDCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F7A1E63CF2D0078FE3B /* TabsAreNiceDCTests.swift */; };
 		3FC75F861E63CF2D0078FE3B /* TabsAreNiceDCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F851E63CF2D0078FE3B /* TabsAreNiceDCUITests.swift */; };
+		3FC75F941E63D2B50078FE3B /* FoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F931E63D2B50078FE3B /* FoxViewController.swift */; };
+		3FC75F961E63D2F80078FE3B /* FalcoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F951E63D2F80078FE3B /* FalcoViewController.swift */; };
+		3FC75F981E63D3040078FE3B /* MarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F971E63D3040078FE3B /* MarthViewController.swift */; };
+		3FC75F9A1E63D3120078FE3B /* ShiekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F991E63D3120078FE3B /* ShiekViewController.swift */; };
+		3FC75F9C1E63D32C0078FE3B /* JigglypuffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F9B1E63D32C0078FE3B /* JigglypuffViewController.swift */; };
+		3FC75F9E1E63D3360078FE3B /* PeachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC75F9D1E63D3360078FE3B /* PeachViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		3FC75F601E63CF2D0078FE3B /* TabsAreNiceDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabsAreNiceDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC75F631E63CF2D0078FE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FC75F651E63CF2D0078FE3B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3FC75F671E63CF2D0078FE3B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3FC75F6A1E63CF2D0078FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC75F6C1E63CF2D0078FE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC75F6F1E63CF2D0078FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		3FC75F811E63CF2D0078FE3B /* TabsAreNiceDCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabsAreNiceDCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC75F851E63CF2D0078FE3B /* TabsAreNiceDCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsAreNiceDCUITests.swift; sourceTree = "<group>"; };
 		3FC75F871E63CF2D0078FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC75F931E63D2B50078FE3B /* FoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoxViewController.swift; sourceTree = "<group>"; };
+		3FC75F951E63D2F80078FE3B /* FalcoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalcoViewController.swift; sourceTree = "<group>"; };
+		3FC75F971E63D3040078FE3B /* MarthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarthViewController.swift; sourceTree = "<group>"; };
+		3FC75F991E63D3120078FE3B /* ShiekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShiekViewController.swift; sourceTree = "<group>"; };
+		3FC75F9B1E63D32C0078FE3B /* JigglypuffViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigglypuffViewController.swift; sourceTree = "<group>"; };
+		3FC75F9D1E63D3360078FE3B /* PeachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeachViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		3FC75F621E63CF2D0078FE3B /* TabsAreNiceDC */ = {
 			isa = PBXGroup;
 			children = (
-				3FC75F631E63CF2D0078FE3B /* AppDelegate.swift */,
-				3FC75F651E63CF2D0078FE3B /* FirstViewController.swift */,
-				3FC75F671E63CF2D0078FE3B /* SecondViewController.swift */,
 				3FC75F691E63CF2D0078FE3B /* Main.storyboard */,
+				3FC75F931E63D2B50078FE3B /* FoxViewController.swift */,
+				3FC75F951E63D2F80078FE3B /* FalcoViewController.swift */,
+				3FC75F971E63D3040078FE3B /* MarthViewController.swift */,
+				3FC75F991E63D3120078FE3B /* ShiekViewController.swift */,
+				3FC75F9B1E63D32C0078FE3B /* JigglypuffViewController.swift */,
+				3FC75F9D1E63D3360078FE3B /* PeachViewController.swift */,
+				3FC75F631E63CF2D0078FE3B /* AppDelegate.swift */,
 				3FC75F6C1E63CF2D0078FE3B /* Assets.xcassets */,
 				3FC75F6E1E63CF2D0078FE3B /* LaunchScreen.storyboard */,
 				3FC75F711E63CF2D0078FE3B /* Info.plist */,
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC75F681E63CF2D0078FE3B /* SecondViewController.swift in Sources */,
+				3FC75F941E63D2B50078FE3B /* FoxViewController.swift in Sources */,
+				3FC75F961E63D2F80078FE3B /* FalcoViewController.swift in Sources */,
 				3FC75F641E63CF2D0078FE3B /* AppDelegate.swift in Sources */,
-				3FC75F661E63CF2D0078FE3B /* FirstViewController.swift in Sources */,
+				3FC75F9A1E63D3120078FE3B /* ShiekViewController.swift in Sources */,
+				3FC75F981E63D3040078FE3B /* MarthViewController.swift in Sources */,
+				3FC75F9C1E63D32C0078FE3B /* JigglypuffViewController.swift in Sources */,
+				3FC75F9E1E63D3360078FE3B /* PeachViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
